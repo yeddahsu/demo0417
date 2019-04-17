@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: angular/ngcontainer
+    image: node:8.11.3-alpine
     commands:
       - npm run-script build
   slack:
